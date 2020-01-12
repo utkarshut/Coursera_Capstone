@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7892f58e704a40f8a223983c79d080aa {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_7892f58e704a40f8a223983c79d080aa" ></div>
+        
+</body>
+<script>    
+    
+            var map_7892f58e704a40f8a223983c79d080aa = L.map(
+                "map_7892f58e704a40f8a223983c79d080aa",
+                {
+                    center: [26.8467, 80.9462],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4eca4b726b8e4d91936f957c482089cd = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_7892f58e704a40f8a223983c79d080aa);
+        
+    
+            var marker_ff9fd40be4534c7684d91824fa77a597 = L.marker(
+                [26.8504, 80.9411],
+                {}
+            ).addTo(map_7892f58e704a40f8a223983c79d080aa);
+        
+    
+            var icon_83516efe306945e3b7e8b199a0a7d131 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ff9fd40be4534c7684d91824fa77a597.setIcon(icon_83516efe306945e3b7e8b199a0a7d131);
+        
+    
+        var popup_07f2385a36884cc19615843783f5d305 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_67552792b8284df880713e4adbcecae7 = $(`<div id="html_67552792b8284df880713e4adbcecae7" style="width: 100.0%; height: 100.0%;">Royal Sky, Opposite Halwasiya Market Hazratganj, Hazratganj, Lucknow</div>`)[0];
+            popup_07f2385a36884cc19615843783f5d305.setContent(html_67552792b8284df880713e4adbcecae7);
+        
+
+        marker_ff9fd40be4534c7684d91824fa77a597.bindPopup(popup_07f2385a36884cc19615843783f5d305)
+        ;
+
+        
+    
+    
+            var marker_8f9055f4767f4c4e810066f37af709b1 = L.marker(
+                [26.8442, 80.9403],
+                {}
+            ).addTo(map_7892f58e704a40f8a223983c79d080aa);
+        
+    
+            var icon_9f17ed28d0824b149c8012ed4ea7626b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_8f9055f4767f4c4e810066f37af709b1.setIcon(icon_9f17ed28d0824b149c8012ed4ea7626b);
+        
+    
+        var popup_8feca864277b496a913a9e2575a3e443 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_565a00a1526a48b6bc97d80b96ef981f = $(`<div id="html_565a00a1526a48b6bc97d80b96ef981f" style="width: 100.0%; height: 100.0%;">The Mughal&#39;s Dastarkhwan, 29, BN Road, Near Royal Hotel Crossing, Lalbagh, Lucknow</div>`)[0];
+            popup_8feca864277b496a913a9e2575a3e443.setContent(html_565a00a1526a48b6bc97d80b96ef981f);
+        
+
+        marker_8f9055f4767f4c4e810066f37af709b1.bindPopup(popup_8feca864277b496a913a9e2575a3e443)
+        ;
+
+        
+    
+    
+            var marker_82a86a871d334240a913db60cb2f73ae = L.marker(
+                [26.8526, 80.9368],
+                {}
+            ).addTo(map_7892f58e704a40f8a223983c79d080aa);
+        
+    
+            var icon_086f36b7b24048c4aa6c8633bed4d2d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_82a86a871d334240a913db60cb2f73ae.setIcon(icon_086f36b7b24048c4aa6c8633bed4d2d4);
+        
+    
+        var popup_4ddb1fb01acd420abe9b50004e60fcd2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97154e957d374fa7b93b1b08fb03adb7 = $(`<div id="html_97154e957d374fa7b93b1b08fb03adb7" style="width: 100.0%; height: 100.0%;">Dastarkhwan, 20, Wala Qadar Road, DM Compound Colony, Kaiserbagh Officer&amp;#039;s Colony, Kaiserbagh, Lucknow</div>`)[0];
+            popup_4ddb1fb01acd420abe9b50004e60fcd2.setContent(html_97154e957d374fa7b93b1b08fb03adb7);
+        
+
+        marker_82a86a871d334240a913db60cb2f73ae.bindPopup(popup_4ddb1fb01acd420abe9b50004e60fcd2)
+        ;
+
+        
+    
+    
+            var marker_f2ca5d0601394cdc8834089123beca91 = L.marker(
+                [26.8484, 80.9448],
+                {}
+            ).addTo(map_7892f58e704a40f8a223983c79d080aa);
+        
+    
+            var icon_bda3f7ea7f424d6eba64714d1d044b04 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f2ca5d0601394cdc8834089123beca91.setIcon(icon_bda3f7ea7f424d6eba64714d1d044b04);
+        
+    
+        var popup_6c680317aa9e4c3d9a82d491df20b673 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b99e719a640f41a8b59fd9c9eed6b744 = $(`<div id="html_b99e719a640f41a8b59fd9c9eed6b744" style="width: 100.0%; height: 100.0%;">Madras Restaurant, Near Gandhi Ashram, Behind Amar Fax, Hazratganj, Lucknow</div>`)[0];
+            popup_6c680317aa9e4c3d9a82d491df20b673.setContent(html_b99e719a640f41a8b59fd9c9eed6b744);
+        
+
+        marker_f2ca5d0601394cdc8834089123beca91.bindPopup(popup_6c680317aa9e4c3d9a82d491df20b673)
+        ;
+
+        
+    
+    
+            var marker_d123c4e9ba2f48918e6a64b210de9452 = L.marker(
+                [26.8337, 80.9478],
+                {}
+            ).addTo(map_7892f58e704a40f8a223983c79d080aa);
+        
+    
+            var icon_f63379ca8a2a48c9880aba055de8f66b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_d123c4e9ba2f48918e6a64b210de9452.setIcon(icon_f63379ca8a2a48c9880aba055de8f66b);
+        
+    
+        var popup_5be5141d4ffa45068058d471e75dc006 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_847b79a7a2154b4f9e274c8b2880b2e9 = $(`<div id="html_847b79a7a2154b4f9e274c8b2880b2e9" style="width: 100.0%; height: 100.0%;">Cappuccino Blast, 12, Mall Avenue, Near, Hazratganj, Lucknow</div>`)[0];
+            popup_5be5141d4ffa45068058d471e75dc006.setContent(html_847b79a7a2154b4f9e274c8b2880b2e9);
+        
+
+        marker_d123c4e9ba2f48918e6a64b210de9452.bindPopup(popup_5be5141d4ffa45068058d471e75dc006)
+        ;
+
+        
+    
+    
+            var marker_4fda6f3c014d406f82dd21a2265adf2b = L.marker(
+                [26.8469, 80.9438],
+                {}
+            ).addTo(map_7892f58e704a40f8a223983c79d080aa);
+        
+    
+            var icon_6edb9c2423654b25863d7bbc3445fb0f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4fda6f3c014d406f82dd21a2265adf2b.setIcon(icon_6edb9c2423654b25863d7bbc3445fb0f);
+        
+    
+        var popup_38f26a9b9d3d48a2948e9b232dd06d4a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ddc1e90773934f3a917ff71358c409a7 = $(`<div id="html_ddc1e90773934f3a917ff71358c409a7" style="width: 100.0%; height: 100.0%;">Quality Like Five Star, A 21, Janpath Market, Off MG Marg, Lalbagh, Lucknow</div>`)[0];
+            popup_38f26a9b9d3d48a2948e9b232dd06d4a.setContent(html_ddc1e90773934f3a917ff71358c409a7);
+        
+
+        marker_4fda6f3c014d406f82dd21a2265adf2b.bindPopup(popup_38f26a9b9d3d48a2948e9b232dd06d4a)
+        ;
+
+        
+    
+    
+            var marker_5a13026d18204290ac961657ec777cd0 = L.marker(
+                [26.8729, 80.9411],
+                {}
+            ).addTo(map_7892f58e704a40f8a223983c79d080aa);
+        
+    
+            var icon_f2279c46a65c4d75b446afec87f15c43 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_5a13026d18204290ac961657ec777cd0.setIcon(icon_f2279c46a65c4d75b446afec87f15c43);
+        
+    
+        var popup_e7254c596baa4559824cc303507dbc7e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_70b4b8922b3446929a3686f8f77f9ff4 = $(`<div id="html_70b4b8922b3446929a3686f8f77f9ff4" style="width: 100.0%; height: 100.0%;">La Reine, Shop No-UGF-1,Shree Plaza Complex,Vikas Nagar,Sector-2,Near Shiv Ji Ki Murti,Lucknow.</div>`)[0];
+            popup_e7254c596baa4559824cc303507dbc7e.setContent(html_70b4b8922b3446929a3686f8f77f9ff4);
+        
+
+        marker_5a13026d18204290ac961657ec777cd0.bindPopup(popup_e7254c596baa4559824cc303507dbc7e)
+        ;
+
+        
+    
+    
+            var marker_cb60bf001c1e4967bf7be38aacb24a18 = L.marker(
+                [26.8472, 80.9453],
+                {}
+            ).addTo(map_7892f58e704a40f8a223983c79d080aa);
+        
+    
+            var icon_3579fa9b0bfc4a3fbe4fe0e73a8b7723 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_cb60bf001c1e4967bf7be38aacb24a18.setIcon(icon_3579fa9b0bfc4a3fbe4fe0e73a8b7723);
+        
+    
+        var popup_4dd2bcff2d274107b4ecae2462984bb4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a6fd4366d134341a8a1bb5feeb039d4 = $(`<div id="html_3a6fd4366d134341a8a1bb5feeb039d4" style="width: 100.0%; height: 100.0%;">Moti Mahal Sweets, 75, Mahatma Gandhi Marg, Next To Central Bank Of India, Hazratganj, Lucknow</div>`)[0];
+            popup_4dd2bcff2d274107b4ecae2462984bb4.setContent(html_3a6fd4366d134341a8a1bb5feeb039d4);
+        
+
+        marker_cb60bf001c1e4967bf7be38aacb24a18.bindPopup(popup_4dd2bcff2d274107b4ecae2462984bb4)
+        ;
+
+        
+    
+    
+            var marker_664522f5f99942f0b8205ba5f97c8cb3 = L.marker(
+                [26.8482, 80.9439],
+                {}
+            ).addTo(map_7892f58e704a40f8a223983c79d080aa);
+        
+    
+            var icon_891b5007a49042458fe40160eefdc818 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_664522f5f99942f0b8205ba5f97c8cb3.setIcon(icon_891b5007a49042458fe40160eefdc818);
+        
+    
+        var popup_324001d68ea643a0be7145169696f368 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_553c75bdc21a4c489067f46264222b1c = $(`<div id="html_553c75bdc21a4c489067f46264222b1c" style="width: 100.0%; height: 100.0%;">Royal Cafe, 51, Opposite Sahu Cinema, MG Marg, Hazratganj, Lucknow</div>`)[0];
+            popup_324001d68ea643a0be7145169696f368.setContent(html_553c75bdc21a4c489067f46264222b1c);
+        
+
+        marker_664522f5f99942f0b8205ba5f97c8cb3.bindPopup(popup_324001d68ea643a0be7145169696f368)
+        ;
+
+        
+    
+    
+            var marker_3bfd5c4208994a50a1300a079a8c2f40 = L.marker(
+                [26.8276, 80.945],
+                {}
+            ).addTo(map_7892f58e704a40f8a223983c79d080aa);
+        
+    
+            var icon_c4a87ed449174a15b3d4771318d1ac34 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3bfd5c4208994a50a1300a079a8c2f40.setIcon(icon_c4a87ed449174a15b3d4771318d1ac34);
+        
+    
+        var popup_fad64e0a340c4bc7b576064eb0cdebf5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c15a1a6cfae3499fa1b2dbc9ab1156c1 = $(`<div id="html_c15a1a6cfae3499fa1b2dbc9ab1156c1" style="width: 100.0%; height: 100.0%;">South Indian Raman Dosa, Near Chhappan Bhog, Sadar Bazaar, Lucknow.</div>`)[0];
+            popup_fad64e0a340c4bc7b576064eb0cdebf5.setContent(html_c15a1a6cfae3499fa1b2dbc9ab1156c1);
+        
+
+        marker_3bfd5c4208994a50a1300a079a8c2f40.bindPopup(popup_fad64e0a340c4bc7b576064eb0cdebf5)
+        ;
+
+        
+    
+    
+            var marker_90cfb08e395e4684895a1a36e0c3c455 = L.marker(
+                [26.856, 80.9453],
+                {}
+            ).addTo(map_7892f58e704a40f8a223983c79d080aa);
+        
+    
+            var icon_17a1001c194d48689b11a27d44ded9c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_90cfb08e395e4684895a1a36e0c3c455.setIcon(icon_17a1001c194d48689b11a27d44ded9c0);
+        
+    
+        var popup_1f616ceea3754cf9851e46184f8305ec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2e75c8b985941508901e5cbba6e6094 = $(`<div id="html_a2e75c8b985941508901e5cbba6e6094" style="width: 100.0%; height: 100.0%;">Royal Hut, 9/7, Shahnajaf Road, Hazratganj, Lucknow</div>`)[0];
+            popup_1f616ceea3754cf9851e46184f8305ec.setContent(html_a2e75c8b985941508901e5cbba6e6094);
+        
+
+        marker_90cfb08e395e4684895a1a36e0c3c455.bindPopup(popup_1f616ceea3754cf9851e46184f8305ec)
+        ;
+
+        
+    
+    
+            var marker_f81074ffd0604c1084a9c9e65c7a92aa = L.marker(
+                [26.8483, 80.9274],
+                {}
+            ).addTo(map_7892f58e704a40f8a223983c79d080aa);
+        
+    
+            var icon_ebd8f67e6ecd44fa9a5f72f28ff57fab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f81074ffd0604c1084a9c9e65c7a92aa.setIcon(icon_ebd8f67e6ecd44fa9a5f72f28ff57fab);
+        
+    
+        var popup_e5c3b9880ef9412bb9b3d61edb3bb74b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_32be725998514a4091743e0c2fd388d7 = $(`<div id="html_32be725998514a4091743e0c2fd388d7" style="width: 100.0%; height: 100.0%;">Tunday Kababi, 168/6, Khayali Ganj, Naaz Cinema Road, Aminabad, Lucknow</div>`)[0];
+            popup_e5c3b9880ef9412bb9b3d61edb3bb74b.setContent(html_32be725998514a4091743e0c2fd388d7);
+        
+
+        marker_f81074ffd0604c1084a9c9e65c7a92aa.bindPopup(popup_e5c3b9880ef9412bb9b3d61edb3bb74b)
+        ;
+
+        
+    
+    
+            var marker_2c939ad6f7ff4a14b7d229402beb28d7 = L.marker(
+                [26.8438, 80.947],
+                {}
+            ).addTo(map_7892f58e704a40f8a223983c79d080aa);
+        
+    
+            var icon_a84e90001c7e4c09ad5b9bc80ce9dd0e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_2c939ad6f7ff4a14b7d229402beb28d7.setIcon(icon_a84e90001c7e4c09ad5b9bc80ce9dd0e);
+        
+    
+        var popup_59d4ce340f22465da1865d8031ab26cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f0cf8aa850e49c787b33739f2b88122 = $(`<div id="html_1f0cf8aa850e49c787b33739f2b88122" style="width: 100.0%; height: 100.0%;">Pizza Hut, 91, Durga Bhawan, Mahatama Gandhi Road, Hazratganj, Lucknow</div>`)[0];
+            popup_59d4ce340f22465da1865d8031ab26cc.setContent(html_1f0cf8aa850e49c787b33739f2b88122);
+        
+
+        marker_2c939ad6f7ff4a14b7d229402beb28d7.bindPopup(popup_59d4ce340f22465da1865d8031ab26cc)
+        ;
+
+        
+    
+    
+            var marker_36336b8ebf28400f8816c59a5686c391 = L.marker(
+                [26.8478, 80.9273],
+                {}
+            ).addTo(map_7892f58e704a40f8a223983c79d080aa);
+        
+    
+            var icon_6cb7b69262554d3dbc32828c133947d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_36336b8ebf28400f8816c59a5686c391.setIcon(icon_6cb7b69262554d3dbc32828c133947d0);
+        
+    
+        var popup_df82f20e0f934d30b3e97756b3a16302 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1bc976e2e451456392c4d9e2a1f45a09 = $(`<div id="html_1bc976e2e451456392c4d9e2a1f45a09" style="width: 100.0%; height: 100.0%;">Dayal Ki Mashoor Kulfi, 222, Bazar Jhaulal, Aminabad, Lucknow</div>`)[0];
+            popup_df82f20e0f934d30b3e97756b3a16302.setContent(html_1bc976e2e451456392c4d9e2a1f45a09);
+        
+
+        marker_36336b8ebf28400f8816c59a5686c391.bindPopup(popup_df82f20e0f934d30b3e97756b3a16302)
+        ;
+
+        
+    
+    
+            var marker_6ed55af9dd924aae847e16df9e2fa59c = L.marker(
+                [26.8512, 81.0083],
+                {}
+            ).addTo(map_7892f58e704a40f8a223983c79d080aa);
+        
+    
+            var icon_e155ec088a6d42d1af56aea84afe091a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_6ed55af9dd924aae847e16df9e2fa59c.setIcon(icon_e155ec088a6d42d1af56aea84afe091a);
+        
+    
+        var popup_0c50eee0cdd444398d58a2a1cfa6a177 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc75242c78624f6fbeeca7f217726e8e = $(`<div id="html_bc75242c78624f6fbeeca7f217726e8e" style="width: 100.0%; height: 100.0%;">Mr. Brown, 1/55 G, Vinit Khand, Gomti Nagar, Lucknow</div>`)[0];
+            popup_0c50eee0cdd444398d58a2a1cfa6a177.setContent(html_bc75242c78624f6fbeeca7f217726e8e);
+        
+
+        marker_6ed55af9dd924aae847e16df9e2fa59c.bindPopup(popup_0c50eee0cdd444398d58a2a1cfa6a177)
+        ;
+
+        
+    
+    
+            var marker_0ed61ce220f1439a9d6517a7c67a07bb = L.marker(
+                [26.8532, 80.9477],
+                {}
+            ).addTo(map_7892f58e704a40f8a223983c79d080aa);
+        
+    
+            var icon_2fa96549e64248c3ad638a5b6600b3db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_0ed61ce220f1439a9d6517a7c67a07bb.setIcon(icon_2fa96549e64248c3ad638a5b6600b3db);
+        
+    
+        var popup_d461c66c5f1a4f9aa33f4aab170d4e4c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_747b58d15e974d5d825496e20624ae51 = $(`<div id="html_747b58d15e974d5d825496e20624ae51" style="width: 100.0%; height: 100.0%;">Mr. Brown, Dubey Chambers, Sapru Marg, Hazratganj, Lucknow</div>`)[0];
+            popup_d461c66c5f1a4f9aa33f4aab170d4e4c.setContent(html_747b58d15e974d5d825496e20624ae51);
+        
+
+        marker_0ed61ce220f1439a9d6517a7c67a07bb.bindPopup(popup_d461c66c5f1a4f9aa33f4aab170d4e4c)
+        ;
+
+        
+    
+    
+            var marker_2091fac633314d128fbec24f55113aac = L.marker(
+                [26.7987, 80.8971],
+                {}
+            ).addTo(map_7892f58e704a40f8a223983c79d080aa);
+        
+    
+            var icon_de6926023e8c4064ba1980cf6b6638fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_2091fac633314d128fbec24f55113aac.setIcon(icon_de6926023e8c4064ba1980cf6b6638fd);
+        
+    
+        var popup_c02939f7e4c2435dbec47295e9871dba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_141f7ee6d6134c7abda259a5a71b9b2b = $(`<div id="html_141f7ee6d6134c7abda259a5a71b9b2b" style="width: 100.0%; height: 100.0%;">Cafe Coffee Day, Ground Floor, Phoenix United Mall, Alambagh, Lucknow</div>`)[0];
+            popup_c02939f7e4c2435dbec47295e9871dba.setContent(html_141f7ee6d6134c7abda259a5a71b9b2b);
+        
+
+        marker_2091fac633314d128fbec24f55113aac.bindPopup(popup_c02939f7e4c2435dbec47295e9871dba)
+        ;
+
+        
+    
+    
+            var marker_73b0040f47df4248809931f884d92fb8 = L.marker(
+                [26.8552, 80.9461],
+                {}
+            ).addTo(map_7892f58e704a40f8a223983c79d080aa);
+        
+    
+            var icon_f1d4e4cf62bc45959cb68716729cfc1e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_73b0040f47df4248809931f884d92fb8.setIcon(icon_f1d4e4cf62bc45959cb68716729cfc1e);
+        
+    
+        var popup_81a6fdfbd8114808850c7a2f798f952e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d6b3fb4e6594698aa77f1ea06e43eb3 = $(`<div id="html_7d6b3fb4e6594698aa77f1ea06e43eb3" style="width: 100.0%; height: 100.0%;">The Chocolate Room, Fourth Floor, Saharaganj Mall, Shahnajaf Road, Hazratganj, Lucknow</div>`)[0];
+            popup_81a6fdfbd8114808850c7a2f798f952e.setContent(html_7d6b3fb4e6594698aa77f1ea06e43eb3);
+        
+
+        marker_73b0040f47df4248809931f884d92fb8.bindPopup(popup_81a6fdfbd8114808850c7a2f798f952e)
+        ;
+
+        
+    
+    
+            var marker_2291141dcefd4874bf54720ccdd61b7b = L.marker(
+                [26.8538, 80.9453],
+                {}
+            ).addTo(map_7892f58e704a40f8a223983c79d080aa);
+        
+    
+            var icon_4ed89f1034be4d71b02b874833a73284 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_2291141dcefd4874bf54720ccdd61b7b.setIcon(icon_4ed89f1034be4d71b02b874833a73284);
+        
+    
+        var popup_c5bbc19b2226479f803c4582b6ac35c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6869cf2d7894436ba08432283ec8c513 = $(`<div id="html_6869cf2d7894436ba08432283ec8c513" style="width: 100.0%; height: 100.0%;">Blue The Lounge, 1A, Shravan Plaza Complex, Sapru Marg, Hazratganj, Lucknow</div>`)[0];
+            popup_c5bbc19b2226479f803c4582b6ac35c0.setContent(html_6869cf2d7894436ba08432283ec8c513);
+        
+
+        marker_2291141dcefd4874bf54720ccdd61b7b.bindPopup(popup_c5bbc19b2226479f803c4582b6ac35c0)
+        ;
+
+        
+    
+    
+            var marker_c0060309d073429986a6c5b94d157942 = L.marker(
+                [26.8528, 80.9998],
+                {}
+            ).addTo(map_7892f58e704a40f8a223983c79d080aa);
+        
+    
+            var icon_c0841c654d7e436ea5433c841f2cdb49 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c0060309d073429986a6c5b94d157942.setIcon(icon_c0841c654d7e436ea5433c841f2cdb49);
+        
+    
+        var popup_2bf205972a7a4ba5958fad1a4a636b7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab5d5cb2994343678f306cbd18b8a2c3 = $(`<div id="html_ab5d5cb2994343678f306cbd18b8a2c3" style="width: 100.0%; height: 100.0%;">Maa Gayatri Mishthan Bhandar, 55, Arohi Plaza, Patrakarpuram Chauraha, Gomti Nagar, Lucknow</div>`)[0];
+            popup_2bf205972a7a4ba5958fad1a4a636b7f.setContent(html_ab5d5cb2994343678f306cbd18b8a2c3);
+        
+
+        marker_c0060309d073429986a6c5b94d157942.bindPopup(popup_2bf205972a7a4ba5958fad1a4a636b7f)
+        ;
+
+        
+    
+    
+            var marker_ac2f2eb645594710aca166f0065c387c = L.marker(
+                [26.874, 80.982],
+                {}
+            ).addTo(map_7892f58e704a40f8a223983c79d080aa);
+        
+    
+            var icon_6689d440f52a4db29e45168cff1a87ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_ac2f2eb645594710aca166f0065c387c.setIcon(icon_6689d440f52a4db29e45168cff1a87ce);
+        
+    
+        var popup_a09206d2fd5f4a5a9f219d18428f5283 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18c7d0be0a83437f8964990d8650ddd6 = $(`<div id="html_18c7d0be0a83437f8964990d8650ddd6" style="width: 100.0%; height: 100.0%;">Sunder Bakery, 1st Floor Asha Deep Complex, Bhoothnath Market, Sector 5, Indira Nagar, Lucknow</div>`)[0];
+            popup_a09206d2fd5f4a5a9f219d18428f5283.setContent(html_18c7d0be0a83437f8964990d8650ddd6);
+        
+
+        marker_ac2f2eb645594710aca166f0065c387c.bindPopup(popup_a09206d2fd5f4a5a9f219d18428f5283)
+        ;
+
+        
+    
+    
+            var marker_93b65034d7b043ad890c25989d54d0c9 = L.marker(
+                [26.8581, 80.996],
+                {}
+            ).addTo(map_7892f58e704a40f8a223983c79d080aa);
+        
+    
+            var icon_8e5a57a9791f45d4b77eb1503fe89900 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_93b65034d7b043ad890c25989d54d0c9.setIcon(icon_8e5a57a9791f45d4b77eb1503fe89900);
+        
+    
+        var popup_1be9db991b4f4df2820aac6317cbe260 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7dce86c81d1b46bdb632d62f4e7af591 = $(`<div id="html_7dce86c81d1b46bdb632d62f4e7af591" style="width: 100.0%; height: 100.0%;">The Mughal&#39;s Dastarkhwan, 3/106, Vivek Khand, Gomti Nagar, Lucknow</div>`)[0];
+            popup_1be9db991b4f4df2820aac6317cbe260.setContent(html_7dce86c81d1b46bdb632d62f4e7af591);
+        
+
+        marker_93b65034d7b043ad890c25989d54d0c9.bindPopup(popup_1be9db991b4f4df2820aac6317cbe260)
+        ;
+
+        
+    
+    
+            var marker_ec63f7f4875c4eb1bb2dfef52d126d35 = L.marker(
+                [26.846, 80.9465],
+                {}
+            ).addTo(map_7892f58e704a40f8a223983c79d080aa);
+        
+    
+            var icon_e657b064c81a49138f8b7fcae80a49c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_ec63f7f4875c4eb1bb2dfef52d126d35.setIcon(icon_e657b064c81a49138f8b7fcae80a49c1);
+        
+    
+        var popup_f332782d15a040b4a19339be89426567 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a8c58a944aa4872bd74ec951c6a52f4 = $(`<div id="html_0a8c58a944aa4872bd74ec951c6a52f4" style="width: 100.0%; height: 100.0%;">Rovers, Opposite G.P.O, MG Marg, Hazratganj, Lucknow</div>`)[0];
+            popup_f332782d15a040b4a19339be89426567.setContent(html_0a8c58a944aa4872bd74ec951c6a52f4);
+        
+
+        marker_ec63f7f4875c4eb1bb2dfef52d126d35.bindPopup(popup_f332782d15a040b4a19339be89426567)
+        ;
+
+        
+    
+    
+            var marker_6eba91f6b0c64f60b2bd177c427dba58 = L.marker(
+                [26.8556, 80.9457],
+                {}
+            ).addTo(map_7892f58e704a40f8a223983c79d080aa);
+        
+    
+            var icon_8d9631dc71a447f4b4e2f7e6188b2af0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_6eba91f6b0c64f60b2bd177c427dba58.setIcon(icon_8d9631dc71a447f4b4e2f7e6188b2af0);
+        
+    
+        var popup_b9b17b5475c44576b77f97ddb87505ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9db4d8a42c954b0884fc41c08c6c7331 = $(`<div id="html_9db4d8a42c954b0884fc41c08c6c7331" style="width: 100.0%; height: 100.0%;">KFC, Shop 3, 4, 5, Saharaganj Mall, Shahjanaf Road, Hazaratganj, Lucknow</div>`)[0];
+            popup_b9b17b5475c44576b77f97ddb87505ff.setContent(html_9db4d8a42c954b0884fc41c08c6c7331);
+        
+
+        marker_6eba91f6b0c64f60b2bd177c427dba58.bindPopup(popup_b9b17b5475c44576b77f97ddb87505ff)
+        ;
+
+        
+    
+    
+            var marker_e3bbac5b51a64b6ebad738aa4969f929 = L.marker(
+                [26.8701, 80.9971],
+                {}
+            ).addTo(map_7892f58e704a40f8a223983c79d080aa);
+        
+    
+            var icon_9a536c290ad84417895aeb7485efaae8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e3bbac5b51a64b6ebad738aa4969f929.setIcon(icon_9a536c290ad84417895aeb7485efaae8);
+        
+    
+        var popup_32baada5581b44299986711c3774998c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_11695b72aad64808ae2088d385e9efb0 = $(`<div id="html_11695b72aad64808ae2088d385e9efb0" style="width: 100.0%; height: 100.0%;">Ttamaasha Bistro Bar, Wave Mall, 4th Floor, Gomti Nagar, Lucknow</div>`)[0];
+            popup_32baada5581b44299986711c3774998c.setContent(html_11695b72aad64808ae2088d385e9efb0);
+        
+
+        marker_e3bbac5b51a64b6ebad738aa4969f929.bindPopup(popup_32baada5581b44299986711c3774998c)
+        ;
+
+        
+    
+    
+            var marker_c641203c8002433792b2424c521d55cf = L.marker(
+                [26.8575, 80.9754],
+                {}
+            ).addTo(map_7892f58e704a40f8a223983c79d080aa);
+        
+    
+            var icon_771a4c92e9b2408f913355cd8194cfc5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_c641203c8002433792b2424c521d55cf.setIcon(icon_771a4c92e9b2408f913355cd8194cfc5);
+        
+    
+        var popup_ce0341bc49c449189cbdb49c14c71c0e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eca24342783f4a0eabbfd09a411ecfc4 = $(`<div id="html_eca24342783f4a0eabbfd09a411ecfc4" style="width: 100.0%; height: 100.0%;">Cafe Coffee Day, Ground Floor, Fun Republic Mall, Gomti Nagar, Lucknow</div>`)[0];
+            popup_ce0341bc49c449189cbdb49c14c71c0e.setContent(html_eca24342783f4a0eabbfd09a411ecfc4);
+        
+
+        marker_c641203c8002433792b2424c521d55cf.bindPopup(popup_ce0341bc49c449189cbdb49c14c71c0e)
+        ;
+
+        
+    
+    
+            var marker_fa5ce018c32442f09c6592d3ebef8ea0 = L.marker(
+                [26.8678, 81.0095],
+                {}
+            ).addTo(map_7892f58e704a40f8a223983c79d080aa);
+        
+    
+            var icon_59ecb3012e4b4bd3a11de5be05450f29 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fa5ce018c32442f09c6592d3ebef8ea0.setIcon(icon_59ecb3012e4b4bd3a11de5be05450f29);
+        
+    
+        var popup_e79226a1e9024b4580d3a898bc0f703f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2bc6d103b08401a8b7a27880d560814 = $(`<div id="html_d2bc6d103b08401a8b7a27880d560814" style="width: 100.0%; height: 100.0%;">Kava Restaurant - Fairfield by Marriott, Gate 2, Opposite Indra Gandhi Prathishthan, Vibhuti Khand, Gomti Nagar, Lucknow</div>`)[0];
+            popup_e79226a1e9024b4580d3a898bc0f703f.setContent(html_d2bc6d103b08401a8b7a27880d560814);
+        
+
+        marker_fa5ce018c32442f09c6592d3ebef8ea0.bindPopup(popup_e79226a1e9024b4580d3a898bc0f703f)
+        ;
+
+        
+    
+    
+            var marker_c8420d66d45c4339854ea8ed97bd71c7 = L.marker(
+                [26.8532, 81.0263],
+                {}
+            ).addTo(map_7892f58e704a40f8a223983c79d080aa);
+        
+    
+            var icon_b4d5f202233b40a6964a6ed13b9931b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c8420d66d45c4339854ea8ed97bd71c7.setIcon(icon_b4d5f202233b40a6964a6ed13b9931b3);
+        
+    
+        var popup_e45a6eb4b9f44734a561dac4903b40f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f7cd590ef1c46f893e839a8c2b77032 = $(`<div id="html_2f7cd590ef1c46f893e839a8c2b77032" style="width: 100.0%; height: 100.0%;">Azure - Casaya Inn, CP - 128, Casaya Inn, Opposite Door Darshan Colony, Gomti Nagar, Lucknow, Gomti Nagar, Lucknow</div>`)[0];
+            popup_e45a6eb4b9f44734a561dac4903b40f0.setContent(html_2f7cd590ef1c46f893e839a8c2b77032);
+        
+
+        marker_c8420d66d45c4339854ea8ed97bd71c7.bindPopup(popup_e45a6eb4b9f44734a561dac4903b40f0)
+        ;
+
+        
+    
+    
+            var marker_9aba861d8427483ca7cc2077cf4bdd43 = L.marker(
+                [26.8373, 80.9203],
+                {}
+            ).addTo(map_7892f58e704a40f8a223983c79d080aa);
+        
+    
+            var icon_a6402d6b56e1414bb7035af698164a0c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_9aba861d8427483ca7cc2077cf4bdd43.setIcon(icon_a6402d6b56e1414bb7035af698164a0c);
+        
+    
+        var popup_a6a8e1b15d3645bab6c5da671f9e8f6f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd53f4dd3ad849dd94b5d58ee47036e8 = $(`<div id="html_bd53f4dd3ad849dd94b5d58ee47036e8" style="width: 100.0%; height: 100.0%;">Monarch Restaurant &amp; Bar, Hotel The Monarch, Naka Hindola, Aishbagh Road, Charbagh, Lucknow</div>`)[0];
+            popup_a6a8e1b15d3645bab6c5da671f9e8f6f.setContent(html_bd53f4dd3ad849dd94b5d58ee47036e8);
+        
+
+        marker_9aba861d8427483ca7cc2077cf4bdd43.bindPopup(popup_a6a8e1b15d3645bab6c5da671f9e8f6f)
+        ;
+
+        
+    
+    
+            var marker_41ad402913154856900797b42ec25b69 = L.marker(
+                [26.8519, 81.0233],
+                {}
+            ).addTo(map_7892f58e704a40f8a223983c79d080aa);
+        
+    
+            var icon_8c49951100a741c0be1691c7c50b626f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_41ad402913154856900797b42ec25b69.setIcon(icon_8c49951100a741c0be1691c7c50b626f);
+        
+    
+        var popup_fda13b3d70d64b9e93d398b6502485d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e4011fbe242940fa9af22d70aeaf8d80 = $(`<div id="html_e4011fbe242940fa9af22d70aeaf8d80" style="width: 100.0%; height: 100.0%;">Urban Terrace, Hotel Lineage CP-73, Viraj Khand,Gomtinagar,Near Sahara Hospital Gate No-2 Lucknow</div>`)[0];
+            popup_fda13b3d70d64b9e93d398b6502485d9.setContent(html_e4011fbe242940fa9af22d70aeaf8d80);
+        
+
+        marker_41ad402913154856900797b42ec25b69.bindPopup(popup_fda13b3d70d64b9e93d398b6502485d9)
+        ;
+
+        
+    
+    
+            var marker_bfbad66514f14f9d8092fdf09cbbd24d = L.marker(
+                [26.9113, 80.9441],
+                {}
+            ).addTo(map_7892f58e704a40f8a223983c79d080aa);
+        
+    
+            var icon_74cf4d1beed64ac8ba3ba300ecfe0b3c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_bfbad66514f14f9d8092fdf09cbbd24d.setIcon(icon_74cf4d1beed64ac8ba3ba300ecfe0b3c);
+        
+    
+        var popup_f88a0893757541bbb3d6d9417a03045a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf31a404c22245c4bbeb53e74bee86a2 = $(`<div id="html_cf31a404c22245c4bbeb53e74bee86a2" style="width: 100.0%; height: 100.0%;">Domino&#39;s Pizza, Naraina Plaza, Upper Ground Floor, CP 65, Sector E, Sitapur Road, Aliganj, Lucknow</div>`)[0];
+            popup_f88a0893757541bbb3d6d9417a03045a.setContent(html_cf31a404c22245c4bbeb53e74bee86a2);
+        
+
+        marker_bfbad66514f14f9d8092fdf09cbbd24d.bindPopup(popup_f88a0893757541bbb3d6d9417a03045a)
+        ;
+
+        
+    
+    
+            var marker_813420d45c2047fa80f9cf72da68e4a0 = L.marker(
+                [26.8703, 80.9966],
+                {}
+            ).addTo(map_7892f58e704a40f8a223983c79d080aa);
+        
+    
+            var icon_1ed0cb14e3e94164a6ba7658d9852655 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_813420d45c2047fa80f9cf72da68e4a0.setIcon(icon_1ed0cb14e3e94164a6ba7658d9852655);
+        
+    
+        var popup_56785cc71098498a87b1d0d910362ece = L.popup({"maxWidth": "100%"});
+
+        
+            var html_364772fefec44b0ead79735c93343730 = $(`<div id="html_364772fefec44b0ead79735c93343730" style="width: 100.0%; height: 100.0%;">Pizza Hut, Shop 8, 9, 10, Ground Floor, West End Mall, Vibhuti Khand, Gomti Nagar, Lucknow</div>`)[0];
+            popup_56785cc71098498a87b1d0d910362ece.setContent(html_364772fefec44b0ead79735c93343730);
+        
+
+        marker_813420d45c2047fa80f9cf72da68e4a0.bindPopup(popup_56785cc71098498a87b1d0d910362ece)
+        ;
+
+        
+    
+    
+            var marker_0ab19ba3164c495988f301b977951e3e = L.marker(
+                [26.7985, 80.897],
+                {}
+            ).addTo(map_7892f58e704a40f8a223983c79d080aa);
+        
+    
+            var icon_1f6aa40a33b845f5a6556d79f9053777 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_0ab19ba3164c495988f301b977951e3e.setIcon(icon_1f6aa40a33b845f5a6556d79f9053777);
+        
+    
+        var popup_1e0e6af7ea334b38867c60ed6ce8b1da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2545e2c9ff274f8492737c1e721a1b42 = $(`<div id="html_2545e2c9ff274f8492737c1e721a1b42" style="width: 100.0%; height: 100.0%;">Tea Trails, FC 15, Fourth Floor, Food Court, Opposite PVR Cinemas, Phoenix United Mall, Sector B, LDA, Kanpur Road, Bargawan, Alambagh, Lucknow</div>`)[0];
+            popup_1e0e6af7ea334b38867c60ed6ce8b1da.setContent(html_2545e2c9ff274f8492737c1e721a1b42);
+        
+
+        marker_0ab19ba3164c495988f301b977951e3e.bindPopup(popup_1e0e6af7ea334b38867c60ed6ce8b1da)
+        ;
+
+        
+    
+    
+            var marker_e5979686ecdf45d5a77fd56f347fb936 = L.marker(
+                [26.7984, 80.8945],
+                {}
+            ).addTo(map_7892f58e704a40f8a223983c79d080aa);
+        
+    
+            var icon_1c2353439cc74a3482c72b73fb59c291 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_e5979686ecdf45d5a77fd56f347fb936.setIcon(icon_1c2353439cc74a3482c72b73fb59c291);
+        
+    
+        var popup_d05e2f35d7c849a48894958f06b169f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc999888deb1499882f0b16d7c384dcb = $(`<div id="html_bc999888deb1499882f0b16d7c384dcb" style="width: 100.0%; height: 100.0%;">Cream &amp; Crumbs - The Piccadily, The Piccadily Lucknow, Ground Floor, Bara Birva, Kanpur Road, Alambagh, Lucknow</div>`)[0];
+            popup_d05e2f35d7c849a48894958f06b169f3.setContent(html_bc999888deb1499882f0b16d7c384dcb);
+        
+
+        marker_e5979686ecdf45d5a77fd56f347fb936.bindPopup(popup_d05e2f35d7c849a48894958f06b169f3)
+        ;
+
+        
+    
+</script>
